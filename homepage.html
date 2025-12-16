@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Restaurant</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>🍴 My Restaurant</h1>
+  <nav>
+    <a href="homepage.html">Home</a>
+    <a href="menu.html">Menu</a>
+    <a href="order.html">Order</a>
+    <a href="#about" onclick="showAbout()">About</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div>
+    <h1>Delicious Food <br><span>Made With Love</span></h1>
+    <p>Fresh ingredients • Family recipes • Modern taste</p>
+    <a href="menu.html" class="btn">Explore Menu</a>
+  </div>
+  <img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092" />
+</section>
+
+<section class="section">
+  <h2>How To Order</h2>
+  <p>1. Choose food from menu<br>
+     2. Go to order page<br>
+     3. Fill details & place order</p>
+</section>
+
+<footer id="about">
+  <p id="aboutText">© 2025 My Restaurant</p>
+</footer>
+
+<script>
+function showAbout() {
+  document.getElementById("aboutText").innerText =
+  "We believe food tells a story; ours begins with generations of family recipes, transformed with fresh, local ingredients into vibrant modern dishes, from our signature truffle-infused risotto that melts in your mouth to sizzling wood-fired pizzas. We've crafted an ambiance that's both cozy and chic, perfect for celebrations or quiet moments. Our passionate team delivers warm service—creating memories, not just meals.";
+}
+</script>
+
+</body>
+</html>
